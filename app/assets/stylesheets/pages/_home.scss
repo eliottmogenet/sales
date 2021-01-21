@@ -1,1 +1,45 @@
 // Specific CSS for your home-page
+h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+.row-title {
+  text-align: center;
+}
+
+.row-title h1 {
+  color: #FBA376;
+  font-size: 80px;
+}
+
+.row-title h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.row-part1 p {
+  color: #FBA376;
+}
+
+.row-part2 h1 {
+  color: #FBA376;
+}
+
+.row-part3 {
+  text-align: center;
+}
+
+.row-part3 h1 {
+  color: #FBA376;
+  font-size: 70px;
+}
