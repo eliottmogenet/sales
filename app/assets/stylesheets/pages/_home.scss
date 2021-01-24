@@ -101,15 +101,20 @@ section {
     width: 90%;
     height: auto;
   }
+  .responsive {
+    width: 95%;
+    height: auto;
+  }
+  .responsive3 {
+    width: 95%;
+    height: auto;
+  }
   .footer {
     opacity: 0%;
   }
   .end {
     grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .end p {
-    margin-left: 0px;
+    margin-top: 250px;
   }
 }
 
