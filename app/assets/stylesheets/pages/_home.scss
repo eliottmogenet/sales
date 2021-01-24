@@ -81,7 +81,10 @@ section {
   section {
     padding-top: 100px;
   }
-
+  img {
+     width: 95%;
+    height: auto;
+  }
   .row-part1 {
     grid-template-columns: 1fr;
     flex-wrap: wrap;
