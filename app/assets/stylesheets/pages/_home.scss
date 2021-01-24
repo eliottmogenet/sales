@@ -1,4 +1,9 @@
 // Specific CSS for your home-page
+
+
+
+
+
 h1 {
   color: white;
   font-size: 60px;
@@ -11,6 +16,20 @@ p {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FBA376;
+  text-decoration: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .row-title {
   text-align: center;
@@ -27,8 +46,87 @@ p {
   font-weight: 500;
 }
 
+button {
+  background-color: #FBA376;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  border-style: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #FBA376;
+}
+
+
+
+section {
+  padding-top: 200px;
+  background-color: #0f0f0f;
+  padding-bottom: 150px;
+}
+
+@media(max-width: 768px) {
+  p {
+    text-align: justify-content-center;
+  }
+
+  section {
+    padding-top: 100px;
+  }
+
+  .row-part1 {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .row-part2 {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .row-part2 h1 {
+    margin-top: 20px;
+  }
+  .responsive2 {
+    width: 90%;
+    height: auto;
+  }
+  .footer {
+    opacity: 0%;
+  }
+  .end {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .end p {
+    margin-left: 0px;
+  }
+}
+
+.row-part1 {
+  display: flex;
+  justify-content: center;
+
+}
+
 .row-part1 p {
+  margin-top: 20px;
   color: #FBA376;
+}
+
+.row-part2 {
+  margin-top: 200px;
+  margin-bottom: 150px;
 }
 
 .row-part2 h1 {
@@ -42,4 +140,32 @@ p {
 .row-part3 h1 {
   color: #FBA376;
   font-size: 70px;
+  margin-top: 10px;
 }
+
+.row-part3 p {
+  margin-top: 20px;
+}
+
+.row-part1 p {
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -200px;
+  margin-left: 500px;
+}
+
+.end {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.end p {
+  font-size: 15px;
+  font-weight: 200px;
+  color: #687086;
+  margin-left: 200px;
+}
+
