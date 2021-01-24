@@ -77,7 +77,9 @@ section {
   p {
     text-align: justify-content-center;
   }
-
+  .cover {
+    opacity: 0%;
+  }
   section {
     padding-top: 100px;
   }
@@ -117,7 +119,6 @@ section {
   }
   .end {
     grid-template-columns: 1fr;
-    margin-top: 250px;
   }
 }
 
