@@ -26,6 +26,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 .responsive {
   width: 100%;
   height: auto;
@@ -73,7 +74,7 @@ section {
   padding-bottom: 150px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
   p {
     text-align: justify-content-center;
   }
@@ -86,6 +87,12 @@ section {
   img {
      width: 95%;
     height: auto;
+  }
+  .row-title h1 {
+    font-size: 60px;
+  }
+  .row-part2 h1 {
+    font-size: 60px;
   }
   .row-part1 {
     grid-template-columns: 1fr;
